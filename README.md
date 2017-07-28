@@ -14,8 +14,8 @@ Just include as a normal library:
 
 ## Workflows
 
-Workflows are used to model a "workflow" or "cycle" in the accounting process. Source Documents are added to the workflow which at 
-the moment just holds them in an array. 
+Workflows are used to model a "workflow" or "cycle" in the accounting process. Source Documents are added to the workflow
+which at the moment just holds them in an array. 
 
 ```
 var workFlow  = new workFlow();
@@ -25,7 +25,7 @@ var workFlow  = new workFlow();
 
 ## SourceDocs
 
-SourceDocs are a model for source documents in the accounting process such as invoices, receipts and goods received notes. In the future, I would like to add documents 
+SourceDocs are a model for source documents in the accounting process such as invoices, receipts and goods received notes. In the future, I would like to add pre-made document templates etc. invoices. 
 ```
 // "docProcess" is an array of all the processes the document must undertake in order for it to be "completed" 
 //e.g. send to accounting department, get authorised by production manager.
